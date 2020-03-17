@@ -1,0 +1,16 @@
+#use_frameworks!
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/TuyaInc/TYPublicSpecs.git'
+
+platform :ios, '9.0'
+
+target 'TuyaSmartCameraPanelSDK_Example' do
+  pod 'TuyaSmartCameraPanelSDK'
+  pod 'TuyaSmartHomeKit'
+  pod 'TuyaSmartPanelSDK'
+  target 'TuyaSmartCameraPanelSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
